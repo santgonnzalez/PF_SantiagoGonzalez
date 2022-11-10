@@ -355,7 +355,7 @@ h3 {
 }
 
 .like3-right {
-  height: 550px;
+  height: 600px;
   background-image: url(./img/laBandaDelParque.jpg);
   background-size: cover;
   background-position: center;
@@ -366,7 +366,7 @@ h3 {
 
 .like4-left {
   padding: 20px;
-  background-color: #2a2a2a;
+  background-color: black;
   color: whitesmoke;
 }
 .like4-left p {
