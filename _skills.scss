@@ -1,15 +1,17 @@
+@import "_variables.scss";
+
 .skills{
     text-align: center;
     position: center;
     p{
-        color: violet;
+        color: $violet;
         letter-spacing: 2px;
         margin: 10px;
     }
 }
 
 #title-skills{
-    background-color: black;
+    background-color: $background;
     margin-top: 15px;
     font-size: 35px;
 }

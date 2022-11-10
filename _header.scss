@@ -1,16 +1,18 @@
+@import "_variables.scss";
+
 html{
     scroll-behavior: smooth;
 }
 
 .navbar{
-    background-color: rgb(255, 179, 0);
+    background-color: $orange;
     a:hover{
-        color: violet !important;
+        color: $violet !important;
     }
 }
 .navbar-brand{
-    color: rgba(238, 130, 238, 0.899) !important;
-    text-shadow: 0 0 5px white;
+    color: $violet !important;
+    text-shadow: 0 0 5px $white;
 }
 .margin-top{
     margin-top: 2.5rem;

@@ -1,7 +1,9 @@
+@import "_variables.scss";
+
 .btn{
     a{
     text-decoration: none;
-    color: black;
+    color: $dark;
     }
 }
 .map{
@@ -15,15 +17,15 @@
 }
 .like1-left{
     padding: 20px;
-    background-color: black;
-    color: white;
+    background-color: $background;
+    color: $white;
     p{
         text-align: justify;
         padding: 10px;
     }
     h4::before {
         content: "💻";
-        color: violet;
+        color: $violet;
     }
     h4{
         text-align: center;
@@ -35,21 +37,21 @@
     background-image: url(./img/fondo.jpg);
     background-size: cover ;
     background-position: center;
-    border: 2px solid #000;
-    box-shadow: 0 0 12px #000;
+    border: 2px solid $dark;
+    box-shadow: 0 0 12px $dark;
     padding: 15px;
 }
 .like2-left{
     padding: 20px;
-    background-color: black;
-    color: white;
+    background-color: $background;
+    color: $white;
     p{
         text-align: justify;
         padding: 10px;
     }
     h4::before {
         content: "🔊";
-        color: violet;
+        color: $violet;
     }
     h4{
         text-align: center;
@@ -61,31 +63,31 @@
     background-image: url(./img/migos.jpg);
     background-size: cover ;
     background-position: center;
-    border: 2px solid #000;
-    box-shadow: 0 0 12px #000;
+    border: 2px solid $dark;
+    box-shadow: 0 0 12px $dark;
     padding: 15px;
 }
 .like3-left{
     padding: 20px;
-    background-color: black;
-    color: white;
+    background-color: $background;
+    color: $white;
     p{
         text-align: justify;
         padding: 10px;
     }
     h4::after {
         content: "🏆⚽";
-        color: violet;
+        color: $violet;
     }
     h4{
         text-align: center;
         font-family: 'Roboto Condensed', sans-serif;
     } 
     button{
-        background-color: violet !important;
+        background-color: $violet !important;
         border-radius: 5px;
-        border: 2px solid #000;
-        color: black;
+        border: 2px solid $dark;
+        color: $dark;
     }
 }
 .like3-right{
@@ -93,31 +95,31 @@
     background-image: url(./img/laBandaDelParque.jpg);
     background-size: cover ;
     background-position: center;
-    border: 2px solid #000;
-    box-shadow: 0 0 12px #000;
+    border: 2px solid $dark;
+    box-shadow: 0 0 12px $dark;
     padding: 15px;
 }
 .like4-left{
     padding: 20px;
-    background-color: black;
-    color: white;
+    background-color: $dark;
+    color: $white;
     p{
         text-align: justify;
         padding: 10px;
     }
     h4::before {
         content: "🏀";
-        color: violet;
+        color: $violet;
     }
     h4{
         text-align: center;
         font-family: 'Roboto Condensed', sans-serif;
     } 
     button{
-        background-color: violet !important;
+        background-color: $violet !important;
         border-radius: 5px;
-        border: 2px solid #000;
-        color: black;
+        border: 2px solid $dark;
+        color: $dark;
     }
 }
 .like4-right{
@@ -125,7 +127,7 @@
     background-image: url(./img/iverson.jpg);
     background-size: cover ;
     background-position: center;
-    border: 2px solid #000;
-    box-shadow: 0 0 12px #000;
+    border: 2px solid $dark;
+    box-shadow: 0 0 12px $dark;
     padding: 15px;
 }

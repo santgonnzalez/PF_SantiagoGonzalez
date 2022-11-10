@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300&display=swap');
-
+@import "_variables.scss";
 /*font-family: 'Roboto Condensed', sans-serif*/
 
 body{
-    background-color: black;
+    background-color: $background;
 }
 
 .card1 {
@@ -13,9 +13,9 @@ body{
     letter-spacing: 0.5px;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 5px;
-    border: 2px solid orange;
+    border: 2px solid $orange;
     border-radius: 10px;
-    box-shadow: 0 0 12px #000;
+    box-shadow: 0 0 12px $dark;
     cursor: pointer;
     transition: transform 0.3s;
     p{
@@ -31,28 +31,28 @@ body{
     background-size: cover;
     height: 400px;
     background-position: center;
-    color: violet;
+    color: $violet;
     font-family: 'Roboto Condensed', sans-serif;
     letter-spacing: 2px;
     margin-bottom: 0;
     border-radius: 0cm;
     button {
-        background-color: violet !important;
+        background-color: $violet !important;
         border-radius: 5px;
-        border: 2px solid #000;
-        color: black;
+        border: 2px solid $dark;
+        color: $dark;
         
     }
 }
 
 a{
-    color: black;
+    color: $dark;
     text-decoration: none;
 }
 
 h3{
-    background-color: rgb(255, 179, 0);
-    color: violet;
+    background-color: $orange;
+    color: $violet;
     text-align: center;
     padding: 10px;
     margin: 0;
@@ -60,35 +60,35 @@ h3{
 
 .nleft {
     padding: 20px;
-    background-color: black;
-    color: white;
+    background-color: $background;
+    color: $white;
     p{
         text-align: justify;
         padding: 10px;
     }
     h4::after {
         content: " ? ";
-        color: violet;
+        color: $violet;
     }
     h4{
         text-align: center;
         font-family: 'Roboto Condensed', sans-serif;
     } 
     button{
-        background-color: violet !important;
+        background-color: $violet !important;
         border-radius: 5px;
-        border: 2px solid #000;
-        color: black;
+        border: 2px solid $dark;
+        color: $background;
     }
 }
 .nright{
     height: 450px;
+    width: 85%;
     background-image: url(./img/waterfall-g9c4bf7c76_1920.jpg);
     background-size: cover ;
     background-position: center;
-    background-color: tomato;
-    border: 2px solid #000;
-    box-shadow: 0 0 12px #000;
+    border: 2px solid $dark;
+    box-shadow: 0 0 12px $dark;
     cursor: pointer;
     padding: 15px;
 }
@@ -99,7 +99,7 @@ h3{
     margin: 10px;
 }
 .separation {
-    background-color: rgb(255, 179, 0);
+    background-color: $orange;
     height: 3px;
     width: 70%;
     margin:auto;
@@ -110,27 +110,27 @@ h3{
 .go-up{
     height: 50px;
     width: 50px;
-    background-color: black;
-    border: 2px solid violet;
+    background-color: $background;
+    border: 2px solid $violet;
     position: fixed;
     right: 20px;
     bottom: 20px;
-    color: violet;
+    color: $violet;
     text-align: center;
     font-size: 30px;
     line-height: 45px;
     border-radius: 30px;
-    box-shadow: 0 0 0.5 #fff;
+    box-shadow: 0 0 0.5 $white;
     transition: transform 0.3;
     i:hover{
         color: rgba(238, 130, 238, 0.899);
-        text-shadow: 0 0 5px rgba(255, 166, 0, 0.681);
+        text-shadow: 0 0 5px $dark;
         transform: scale(1.25)
     }
 }
 .go {
     a{
-    color: violet;
+    color: $violet;
     text-decoration: none;
     transition: transform 0.3s;
     }
@@ -154,10 +154,9 @@ h3{
 }
 
 .item {
-    background-color: tomato;
-    border: 2px solid #000;
+    border: 2px solid $dark;
     border-radius: 10px;
-    box-shadow: 0 0 12px #000;
+    box-shadow: 0 0 12px $dark;
     cursor: pointer;
 }
 

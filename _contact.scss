@@ -1,3 +1,5 @@
+@import "_variables.scss";
+
 .container {
     margin-top: 15px;
     margin-bottom: 15px;
@@ -7,7 +9,7 @@
 // }
 
 .inicio{
-    border: 2px solid black;
+    border: 2px solid $dark;
     border-radius: 10px;
     padding: 5px;
     box-shadow: 0 0 5px rgba(115, 114, 114, 0.725);
@@ -21,11 +23,11 @@
 
 .boton {
     font-weight: bold;
-    border: 2px solid black;
+    border: 2px solid $dark;
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(115, 114, 114, 0.725);
     cursor: pointer;
-    background-color: orange;
+    background-color: $orange;
 }
 
 .boton:hover {
@@ -35,7 +37,7 @@
 .body-contact{
     background-color: rgba(0, 0, 0, 0.53);
     font-weight: bold;
-    color: violet;
+    color: $violet;
 }
 
 

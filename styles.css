@@ -1,5 +1,8 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300&display=swap");
+/*colors*/
+/*Font family*/
+/*Medidas*/
 /*font-family: 'Roboto Condensed', sans-serif*/
 body {
   background-color: black;
@@ -12,9 +15,9 @@ body {
   letter-spacing: 0.5px;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 5px;
-  border: 2px solid orange;
+  border: 2px solid rgb(255, 179, 0);
   border-radius: 10px;
-  box-shadow: 0 0 12px #000;
+  box-shadow: 0 0 12px #2a2a2a;
   cursor: pointer;
   transition: transform 0.3s;
 }
@@ -32,27 +35,27 @@ body {
   background-size: cover;
   height: 400px;
   background-position: center;
-  color: violet;
+  color: rgb(243, 120, 243);
   font-family: "Roboto Condensed", sans-serif;
   letter-spacing: 2px;
   margin-bottom: 0;
   border-radius: 0cm;
 }
 .jumbotron button {
-  background-color: violet !important;
+  background-color: rgb(243, 120, 243) !important;
   border-radius: 5px;
-  border: 2px solid #000;
-  color: black;
+  border: 2px solid #2a2a2a;
+  color: #2a2a2a;
 }
 
 a {
-  color: black;
+  color: #2a2a2a;
   text-decoration: none;
 }
 
 h3 {
   background-color: rgb(255, 179, 0);
-  color: violet;
+  color: rgb(243, 120, 243);
   text-align: center;
   padding: 10px;
   margin: 0;
@@ -61,7 +64,7 @@ h3 {
 .nleft {
   padding: 20px;
   background-color: black;
-  color: white;
+  color: whitesmoke;
 }
 .nleft p {
   text-align: justify;
@@ -69,27 +72,27 @@ h3 {
 }
 .nleft h4::after {
   content: " ? ";
-  color: violet;
+  color: rgb(243, 120, 243);
 }
 .nleft h4 {
   text-align: center;
   font-family: "Roboto Condensed", sans-serif;
 }
 .nleft button {
-  background-color: violet !important;
+  background-color: rgb(243, 120, 243) !important;
   border-radius: 5px;
-  border: 2px solid #000;
+  border: 2px solid #2a2a2a;
   color: black;
 }
 
 .nright {
   height: 450px;
+  width: 85%;
   background-image: url(./img/waterfall-g9c4bf7c76_1920.jpg);
   background-size: cover;
   background-position: center;
-  background-color: tomato;
-  border: 2px solid #000;
-  box-shadow: 0 0 12px #000;
+  border: 2px solid #2a2a2a;
+  box-shadow: 0 0 12px #2a2a2a;
   cursor: pointer;
   padding: 15px;
 }
@@ -115,26 +118,26 @@ h3 {
   height: 50px;
   width: 50px;
   background-color: black;
-  border: 2px solid violet;
+  border: 2px solid rgb(243, 120, 243);
   position: fixed;
   right: 20px;
   bottom: 20px;
-  color: violet;
+  color: rgb(243, 120, 243);
   text-align: center;
   font-size: 30px;
   line-height: 45px;
   border-radius: 30px;
-  box-shadow: 0 0 0.5 #fff;
+  box-shadow: 0 0 0.5 whitesmoke;
   transition: transform 0.3;
 }
 .go-up i:hover {
   color: rgba(238, 130, 238, 0.899);
-  text-shadow: 0 0 5px rgba(255, 166, 0, 0.681);
+  text-shadow: 0 0 5px #2a2a2a;
   transform: scale(1.25);
 }
 
 .go a {
-  color: violet;
+  color: rgb(243, 120, 243);
   text-decoration: none;
   transition: transform 0.3s;
 }
@@ -153,10 +156,9 @@ h3 {
 }
 
 .item {
-  background-color: tomato;
-  border: 2px solid #000;
+  border: 2px solid #2a2a2a;
   border-radius: 10px;
-  box-shadow: 0 0 12px #000;
+  box-shadow: 0 0 12px #2a2a2a;
   cursor: pointer;
 }
 
@@ -253,9 +255,12 @@ h3 {
     width: 30%;
   }
 }
+/*colors*/
+/*Font family*/
+/*Medidas*/
 .btn a {
   text-decoration: none;
-  color: black;
+  color: #2a2a2a;
 }
 
 .map {
@@ -272,7 +277,7 @@ h3 {
 .like1-left {
   padding: 20px;
   background-color: black;
-  color: white;
+  color: whitesmoke;
 }
 .like1-left p {
   text-align: justify;
@@ -280,7 +285,7 @@ h3 {
 }
 .like1-left h4::before {
   content: "💻";
-  color: violet;
+  color: rgb(243, 120, 243);
 }
 .like1-left h4 {
   text-align: center;
@@ -292,15 +297,15 @@ h3 {
   background-image: url(./img/fondo.jpg);
   background-size: cover;
   background-position: center;
-  border: 2px solid #000;
-  box-shadow: 0 0 12px #000;
+  border: 2px solid #2a2a2a;
+  box-shadow: 0 0 12px #2a2a2a;
   padding: 15px;
 }
 
 .like2-left {
   padding: 20px;
   background-color: black;
-  color: white;
+  color: whitesmoke;
 }
 .like2-left p {
   text-align: justify;
@@ -308,7 +313,7 @@ h3 {
 }
 .like2-left h4::before {
   content: "🔊";
-  color: violet;
+  color: rgb(243, 120, 243);
 }
 .like2-left h4 {
   text-align: center;
@@ -320,15 +325,15 @@ h3 {
   background-image: url(./img/migos.jpg);
   background-size: cover;
   background-position: center;
-  border: 2px solid #000;
-  box-shadow: 0 0 12px #000;
+  border: 2px solid #2a2a2a;
+  box-shadow: 0 0 12px #2a2a2a;
   padding: 15px;
 }
 
 .like3-left {
   padding: 20px;
   background-color: black;
-  color: white;
+  color: whitesmoke;
 }
 .like3-left p {
   text-align: justify;
@@ -336,17 +341,17 @@ h3 {
 }
 .like3-left h4::after {
   content: "🏆⚽";
-  color: violet;
+  color: rgb(243, 120, 243);
 }
 .like3-left h4 {
   text-align: center;
   font-family: "Roboto Condensed", sans-serif;
 }
 .like3-left button {
-  background-color: violet !important;
+  background-color: rgb(243, 120, 243) !important;
   border-radius: 5px;
-  border: 2px solid #000;
-  color: black;
+  border: 2px solid #2a2a2a;
+  color: #2a2a2a;
 }
 
 .like3-right {
@@ -354,15 +359,15 @@ h3 {
   background-image: url(./img/laBandaDelParque.jpg);
   background-size: cover;
   background-position: center;
-  border: 2px solid #000;
-  box-shadow: 0 0 12px #000;
+  border: 2px solid #2a2a2a;
+  box-shadow: 0 0 12px #2a2a2a;
   padding: 15px;
 }
 
 .like4-left {
   padding: 20px;
-  background-color: black;
-  color: white;
+  background-color: #2a2a2a;
+  color: whitesmoke;
 }
 .like4-left p {
   text-align: justify;
@@ -370,17 +375,17 @@ h3 {
 }
 .like4-left h4::before {
   content: "🏀";
-  color: violet;
+  color: rgb(243, 120, 243);
 }
 .like4-left h4 {
   text-align: center;
   font-family: "Roboto Condensed", sans-serif;
 }
 .like4-left button {
-  background-color: violet !important;
+  background-color: rgb(243, 120, 243) !important;
   border-radius: 5px;
-  border: 2px solid #000;
-  color: black;
+  border: 2px solid #2a2a2a;
+  color: #2a2a2a;
 }
 
 .like4-right {
@@ -388,18 +393,21 @@ h3 {
   background-image: url(./img/iverson.jpg);
   background-size: cover;
   background-position: center;
-  border: 2px solid #000;
-  box-shadow: 0 0 12px #000;
+  border: 2px solid #2a2a2a;
+  box-shadow: 0 0 12px #2a2a2a;
   padding: 15px;
 }
 
+/*colors*/
+/*Font family*/
+/*Medidas*/
 .container {
   margin-top: 15px;
   margin-bottom: 15px;
 }
 
 .inicio {
-  border: 2px solid black;
+  border: 2px solid #2a2a2a;
   border-radius: 10px;
   padding: 5px;
   box-shadow: 0 0 5px rgba(115, 114, 114, 0.725);
@@ -413,11 +421,11 @@ h3 {
 
 .boton {
   font-weight: bold;
-  border: 2px solid black;
+  border: 2px solid #2a2a2a;
   border-radius: 10px;
   box-shadow: 0 0 5px rgba(115, 114, 114, 0.725);
   cursor: pointer;
-  background-color: orange;
+  background-color: rgb(255, 179, 0);
 }
 
 .boton:hover {
@@ -427,15 +435,18 @@ h3 {
 .body-contact {
   background-color: rgba(0, 0, 0, 0.53);
   font-weight: bold;
-  color: violet;
+  color: rgb(243, 120, 243);
 }
 
+/*colors*/
+/*Font family*/
+/*Medidas*/
 .skills {
   text-align: center;
   position: center;
 }
 .skills p {
-  color: violet;
+  color: rgb(243, 120, 243);
   letter-spacing: 2px;
   margin: 10px;
 }
@@ -446,6 +457,9 @@ h3 {
   font-size: 35px;
 }
 
+/*colors*/
+/*Font family*/
+/*Medidas*/
 footer {
   height: auto;
   width: 100%;
@@ -457,20 +471,23 @@ footer {
 }
 footer p {
   padding-top: 5px;
-  color: rgba(238, 130, 238, 0.899);
-  text-shadow: 0 0 5px white;
+  color: rgb(243, 120, 243);
+  text-shadow: 0 0 5px whitesmoke;
 }
 footer i {
   letter-spacing: 10px;
   font-size: 40px;
 }
 footer a {
-  color: white;
+  color: whitesmoke;
 }
 footer a:hover {
-  color: violet;
+  color: rgb(243, 120, 243);
 }
 
+/*colors*/
+/*Font family*/
+/*Medidas*/
 html {
   scroll-behavior: smooth;
 }
@@ -479,12 +496,12 @@ html {
   background-color: rgb(255, 179, 0);
 }
 .navbar a:hover {
-  color: violet !important;
+  color: rgb(243, 120, 243) !important;
 }
 
 .navbar-brand {
-  color: rgba(238, 130, 238, 0.899) !important;
-  text-shadow: 0 0 5px white;
+  color: rgb(243, 120, 243) !important;
+  text-shadow: 0 0 5px whitesmoke;
 }
 
 .margin-top {
@@ -494,5 +511,9 @@ html {
 .margin-bottom {
   margin-bottom: 1.5rem;
 }
+
+/*colors*/
+/*Font family*/
+/*Medidas*/
 
 /*# sourceMappingURL=styles.css.map */
