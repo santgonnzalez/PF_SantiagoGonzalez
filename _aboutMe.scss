@@ -1,0 +1,131 @@
+.btn{
+    a{
+    text-decoration: none;
+    color: black;
+    }
+}
+.map{
+    margin: 0.5rem;
+}
+.maps iframe {
+    height:100%;
+    width:100%;
+    opacity:0.9;
+    border-radius: 0.5rem;
+}
+.like1-left{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    p{
+        text-align: justify;
+        padding: 10px;
+    }
+    h4::before {
+        content: "💻";
+        color: violet;
+    }
+    h4{
+        text-align: center;
+        font-family: 'Roboto Condensed', sans-serif;
+    } 
+}
+.like1-right{
+    height: 600px;
+    background-image: url(./img/fondo.jpg);
+    background-size: cover ;
+    background-position: center;
+    border: 2px solid #000;
+    box-shadow: 0 0 12px #000;
+    padding: 15px;
+}
+.like2-left{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    p{
+        text-align: justify;
+        padding: 10px;
+    }
+    h4::before {
+        content: "🔊";
+        color: violet;
+    }
+    h4{
+        text-align: center;
+        font-family: 'Roboto Condensed', sans-serif;
+    } 
+}
+.like2-right{
+    height: 600px;
+    background-image: url(./img/migos.jpg);
+    background-size: cover ;
+    background-position: center;
+    border: 2px solid #000;
+    box-shadow: 0 0 12px #000;
+    padding: 15px;
+}
+.like3-left{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    p{
+        text-align: justify;
+        padding: 10px;
+    }
+    h4::after {
+        content: "🏆⚽";
+        color: violet;
+    }
+    h4{
+        text-align: center;
+        font-family: 'Roboto Condensed', sans-serif;
+    } 
+    button{
+        background-color: violet !important;
+        border-radius: 5px;
+        border: 2px solid #000;
+        color: black;
+    }
+}
+.like3-right{
+    height: 550px;
+    background-image: url(./img/laBandaDelParque.jpg);
+    background-size: cover ;
+    background-position: center;
+    border: 2px solid #000;
+    box-shadow: 0 0 12px #000;
+    padding: 15px;
+}
+.like4-left{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    p{
+        text-align: justify;
+        padding: 10px;
+    }
+    h4::before {
+        content: "🏀";
+        color: violet;
+    }
+    h4{
+        text-align: center;
+        font-family: 'Roboto Condensed', sans-serif;
+    } 
+    button{
+        background-color: violet !important;
+        border-radius: 5px;
+        border: 2px solid #000;
+        color: black;
+    }
+}
+.like4-right{
+    height: 600px;
+    background-image: url(./img/iverson.jpg);
+    background-size: cover ;
+    background-position: center;
+    border: 2px solid #000;
+    box-shadow: 0 0 12px #000;
+    padding: 15px;
+}

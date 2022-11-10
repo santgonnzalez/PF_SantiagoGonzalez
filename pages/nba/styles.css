@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Silkscreen&display=swap');
+
+/* font-family: 'Abyssinica SIL', serif;
+font-family: 'Silkscreen', cursive;  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth; /*para cuando sube en el boton sea mas lento y sirbe para botones mas que nada*/
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    background-color: rgba(244, 21, 21, 0.888);
+    font-family: 'Silkscreen', cursive;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    text-shadow: 0 0 5px rgba(104, 104, 104, 0.882);
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo span{
+    color: blue;
+}
+
+header > i {
+    font-size: 27px;
+}
+
+main{
+    background-image: url(./img/top5.webp);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.call {
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.535);
+    border: 2px solid black;
+    border-radius: 7px;
+    float: right;
+    margin: 20px;
+    padding: 20px;
+}
+
+.call p{
+    color: white;
+    /* padding: 15px; */
+    margin-bottom: 30px;
+    font-family: 'Abyssinica SIL', serif;
+}
+
+h1{
+    color: springgreen;
+    font-family: 'Silkscreen', cursive;
+    font-size: 30px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.callButton{
+    text-decoration: none;
+    background-color: rgba(0, 255, 128, 0.786);
+    padding: 10px 20px;
+    color: #333;
+    font-family: 'Silkscreen', cursive;
+}
+
+h2 {
+    background-color: springgreen;
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+    text-shadow: 0 0 5px rgba(104, 104, 104, 0.882);
+    font-size: 25px;
+    padding: 10px;
+}
+
+.nosotros {
+    width: 100%;
+    height: 450px;
+}
+
+.nleft{
+    background-image: url(./img/hd-stephen-curry-wallpaper-whatspaper-12.jpg);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    height: 50%;
+    width: 100%;
+}
+
+.nright h3{
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+    margin-bottom: 20px;
+}
+
+.nright {
+    padding: 20px;
+
+}
+
+.nright p{
+    font-family: 'Abyssinica SIL', serif;
+}
+
+h2 {
+    background-color: rgba(244, 21, 21, 0.888);
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+}
+
+.gallery {
+    background-color: rgba(165, 42, 42, 0.812);
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 300px);
+    justify-content: center;
+    grid-gap: 20px;
+}
+
+.item {
+    width: 100%;
+    border: 2px solid white;
+}
+
+.item1 {
+    background-image: url(./img/curry2020.jpg);
+    background-size: cover;
+    /* background-position: center; */
+}
+
+.item2 {
+    background-image: url(./img/doncic.jpg);
+    background-size: cover;
+    /* background-position: center; */
+}
+.item3 {
+    background-image: url(./img/demarDeRozan.jpg);
+    background-size: cover;
+    /* background-position: center; */
+}
+.item4 {
+    background-image: url(./img/kingJames.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.item5 {
+    background-image: url(./img/iverson.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.item6 {
+    background-image: url(./img/roseD.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.item7 {
+    background-image: url(./img/kobe-bryant-nawpic-47.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.item8 {
+    background-image: url(./img/e2ed50de244079efb7d3e219a0067bb0.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+footer{
+    background-color: rgba(244, 21, 21, 0.888);
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+    padding: 15px;
+    font-size: 15px;
+}
+
+footer .redes {
+    margin-top: 15px;
+}
+
+footer i {
+    font-size: 30px;
+    color: white;
+    text-shadow: 0 0 5px black;
+    letter-spacing: 10px;
+
+}
+
+.go-up{
+    height: 45px;
+    width: 45px;
+    background-color: bisque;
+    border: 2px solid rgba(0, 255, 128, 0.636);
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    color: rgba(0, 255, 128, 0.657);
+    text-align: center;
+    font-size: 30px;
+    line-height: 45px;
+    border-radius: 50%;
+    box-shadow: 0 0 0.5 #fff;
+    ;
+}
+
+@media only screen and (min-width: 480px){
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 300px);
+    }
+
+    .nleft{
+        width: 50%;
+        height: 100%;
+        background-position: center;
+    }
+    .nright{
+        width: 50%;
+        height: 100%;
+        
+    }
+    .nright h3{
+        font-size: 35px;
+    }
+    .nright p{
+        font-size: 20px;
+    }
+    
+
+    .nosotros {
+        display: flex;
+        justify-content: space-around;
+    }
+
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .gallery{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .item1 {
+        grid-column: 1/3;
+        grid-row: 1/2
+    }
+
+    .item4{
+        grid-column: 2/4;
+        grid-row: 2/3;
+    }
+
+    .item5 {
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+
+    .item8{
+        grid-column: 2/4 ;
+        grid-row: 4/5;
+    }
+}
+@media only screen and (min-width: 1024px){
+    .gallery{
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 200px 200px;
+    }
+}
+
+/* Para que se pisen correctamente las mediasquerys no debo ponerle punto y 
+coma al terminar, y la dejo pegada.*/
