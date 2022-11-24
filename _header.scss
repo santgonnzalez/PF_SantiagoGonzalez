@@ -5,13 +5,13 @@ html{
 }
 
 .navbar{
-    background-color: $orange;
+    background-color: $color2;
     a:hover{
-        color: $violet !important;
+        color: $color1 !important;
     }
 }
 .navbar-brand{
-    color: $violet !important;
+    color: $color1 !important;
     text-shadow: 0 0 5px $white;
 }
 .margin-top{
@@ -19,8 +19,4 @@ html{
 }
 .margin-bottom{
     margin-bottom: 1.5rem;
-}
-.portfile-name{
-    // text-align: center;
-    // padding-left: 5px;
 }

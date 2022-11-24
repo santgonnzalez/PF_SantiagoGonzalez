@@ -12,32 +12,33 @@
     border: 2px solid $dark;
     border-radius: 10px;
     padding: 5px;
-    box-shadow: 0 0 5px rgba(115, 114, 114, 0.725);
+    box-shadow: 0 0 5px $color2;
     cursor: pointer;
     text-decoration: none;
 }
 
 .inicio:hover {
-    color: rgba(255, 255, 255, 0.717);
+    color: $white;
 }
 
 .boton {
     font-weight: bold;
     border: 2px solid $dark;
     border-radius: 10px;
-    box-shadow: 0 0 5px rgba(115, 114, 114, 0.725);
+    box-shadow: 0 0 5px $color2 !important;
     cursor: pointer;
-    background-color: $orange;
+    background-color: $color1 !important;
 }
 
 .boton:hover {
-    color: rgba(255, 255, 255, 0.717);
+    color: $color2 !important;
 }
 
 .body-contact{
-    background-color: rgba(0, 0, 0, 0.53);
+    background-color: $background;
     font-weight: bold;
-    color: $violet;
+    color: $color1;
+    height: 100vh;
 }
 
 

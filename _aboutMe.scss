@@ -25,7 +25,7 @@
     }
     h4::before {
         content: "💻";
-        color: $violet;
+        color: $color1;
     }
     h4{
         text-align: center;
@@ -51,7 +51,7 @@
     }
     h4::before {
         content: "🔊";
-        color: $violet;
+        color: $color1;
     }
     h4{
         text-align: center;
@@ -77,14 +77,14 @@
     }
     h4::after {
         content: "🏆⚽";
-        color: $violet;
+        color: $color1;
     }
     h4{
         text-align: center;
         font-family: 'Roboto Condensed', sans-serif;
     } 
     button{
-        background-color: $violet !important;
+        background-color: $color1 !important;
         border-radius: 5px;
         border: 2px solid $dark;
         color: $dark;
@@ -109,14 +109,14 @@
     }
     h4::before {
         content: "🏀";
-        color: $violet;
+        color: $color1;
     }
     h4{
         text-align: center;
         font-family: 'Roboto Condensed', sans-serif;
     } 
     button{
-        background-color: $violet !important;
+        background-color: $color1 !important;
         border-radius: 5px;
         border: 2px solid $dark;
         color: $dark;
@@ -130,4 +130,108 @@
     border: 2px solid $dark;
     box-shadow: 0 0 12px $dark;
     padding: 15px;
+}
+
+.gallery-world {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 350px);
+    grid-template-areas: 
+    "img3 img3"
+    "img1 img1"
+    "img7 img7";
+    // grid-gap: 5px;
+    padding: 25px;
+}
+
+.place {
+    border: 2px solid $dark;
+    border-radius: 10px;
+    box-shadow: 0 0 12px $dark;
+    cursor: pointer;
+    margin-top: 7px;
+    margin-top: 7px;
+}
+
+.place1{
+    grid-area: img1;
+    background-image: url(./img/newYork.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.place2{
+    grid-area: img2;
+    background-image: url(./img/atenas.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.place3{
+    grid-area: img3;
+    background-image: url(./img/amsterdam.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.place4{
+    grid-area: img4;
+    background-image: url(./img/camping-patagonia.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.place5{
+    grid-area: img5;
+    background-image: url(./img/patagonia1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.place6{
+    grid-area: img6;
+    background-image: url(./img/tokio.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.place7{
+    grid-area: img7;
+    background-image: url(./img/gran-canon2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+@media only screen and (min-width: 768px){
+    .gallery-world {
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 350px);
+        grid-template-areas: 
+        "img3 img3"
+        "img1 img1"
+        "img5 img5"
+        "img7 img7";
+        // grid-gap: 5px;
+        padding: 25px;
+    }
+}
+@media only screen and (min-width: 1024px){
+    .gallery-world {
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 200px);
+        grid-template-areas: 
+        "img1 img3 img3 img2"
+        "img1 img7 img7 img2"
+        "img5 img5 img4 img6";
+        // grid-gap: 5px;
+        padding: 25px;
+    }
 }

@@ -11,9 +11,9 @@ body{
     margin-bottom: 5px;
     font-family: 'Roboto Condensed', sans-serif;
     letter-spacing: 0.5px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: $background;
     padding: 5px;
-    border: 2px solid $orange;
+    border: 2px solid $color2;
     border-radius: 10px;
     box-shadow: 0 0 12px $dark;
     cursor: pointer;
@@ -31,13 +31,13 @@ body{
     background-size: cover;
     height: 400px;
     background-position: center;
-    color: $violet;
+    color: $color1;
     font-family: 'Roboto Condensed', sans-serif;
     letter-spacing: 2px;
     margin-bottom: 0;
     border-radius: 0cm;
     button {
-        background-color: $violet !important;
+        background-color: $color1 !important;
         border-radius: 5px;
         border: 2px solid $dark;
         color: $dark;
@@ -51,8 +51,8 @@ a{
 }
 
 h3{
-    background-color: $orange;
-    color: $violet;
+    background-color: $color2;
+    color: $color1;
     text-align: center;
     padding: 10px;
     margin: 0;
@@ -68,14 +68,14 @@ h3{
     }
     h4::after {
         content: " ? ";
-        color: $violet;
+        color: $color1;
     }
     h4{
         text-align: center;
         font-family: 'Roboto Condensed', sans-serif;
     } 
     button{
-        background-color: $violet !important;
+        background-color: $color1 !important;
         border-radius: 5px;
         border: 2px solid $dark;
         color: $background;
@@ -99,7 +99,7 @@ h3{
     margin: 10px;
 }
 .separation {
-    background-color: $orange;
+    background-color: $color2;
     height: 3px;
     width: 70%;
     margin:auto;
@@ -111,11 +111,11 @@ h3{
     height: 50px;
     width: 50px;
     background-color: $background;
-    border: 2px solid $violet;
+    border: 2px solid $color1;
     position: fixed;
     right: 20px;
     bottom: 20px;
-    color: $violet;
+    color: $color1;
     text-align: center;
     font-size: 30px;
     line-height: 45px;
@@ -130,7 +130,7 @@ h3{
 }
 .go {
     a{
-    color: $violet;
+    color: $color1;
     text-decoration: none;
     transition: transform 0.3s;
     }
@@ -158,6 +158,8 @@ h3{
     border-radius: 10px;
     box-shadow: 0 0 12px $dark;
     cursor: pointer;
+    margin-top: 7px;
+    margin-top: 7px;
 }
 
 
@@ -240,6 +242,7 @@ h3{
     .card{
         width: 50%;
     }
+
 }
 @media only screen and (min-width: 1024px){
     .gallery {
@@ -261,4 +264,9 @@ h3{
     .card{
         width: 30%;
     }
+
+}
+
+button:hover{
+    border-color: $white !important;
 }

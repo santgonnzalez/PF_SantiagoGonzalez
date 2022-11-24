@@ -5,7 +5,7 @@
 /*Medidas*/
 /*font-family: 'Roboto Condensed', sans-serif*/
 body {
-  background-color: black;
+  background-color: #222831;
 }
 
 .card1 {
@@ -13,11 +13,11 @@ body {
   margin-bottom: 5px;
   font-family: "Roboto Condensed", sans-serif;
   letter-spacing: 0.5px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #222831;
   padding: 5px;
-  border: 2px solid rgb(255, 179, 0);
+  border: 2px solid #393E46;
   border-radius: 10px;
-  box-shadow: 0 0 12px #2a2a2a;
+  box-shadow: 0 0 12px #0E5E6F;
   cursor: pointer;
   transition: transform 0.3s;
 }
@@ -35,27 +35,27 @@ body {
   background-size: cover;
   height: 400px;
   background-position: center;
-  color: rgb(243, 120, 243);
+  color: #00ADB5;
   font-family: "Roboto Condensed", sans-serif;
   letter-spacing: 2px;
   margin-bottom: 0;
   border-radius: 0cm;
 }
 .jumbotron button {
-  background-color: rgb(243, 120, 243) !important;
+  background-color: #00ADB5 !important;
   border-radius: 5px;
-  border: 2px solid #2a2a2a;
-  color: #2a2a2a;
+  border: 2px solid #0E5E6F;
+  color: #0E5E6F;
 }
 
 a {
-  color: #2a2a2a;
+  color: #0E5E6F;
   text-decoration: none;
 }
 
 h3 {
-  background-color: rgb(255, 179, 0);
-  color: rgb(243, 120, 243);
+  background-color: #393E46;
+  color: #00ADB5;
   text-align: center;
   padding: 10px;
   margin: 0;
@@ -63,8 +63,8 @@ h3 {
 
 .nleft {
   padding: 20px;
-  background-color: black;
-  color: whitesmoke;
+  background-color: #222831;
+  color: #EEEEEE;
 }
 .nleft p {
   text-align: justify;
@@ -72,17 +72,17 @@ h3 {
 }
 .nleft h4::after {
   content: " ? ";
-  color: rgb(243, 120, 243);
+  color: #00ADB5;
 }
 .nleft h4 {
   text-align: center;
   font-family: "Roboto Condensed", sans-serif;
 }
 .nleft button {
-  background-color: rgb(243, 120, 243) !important;
+  background-color: #00ADB5 !important;
   border-radius: 5px;
-  border: 2px solid #2a2a2a;
-  color: black;
+  border: 2px solid #0E5E6F;
+  color: #222831;
 }
 
 .nright {
@@ -91,8 +91,8 @@ h3 {
   background-image: url(./img/waterfall-g9c4bf7c76_1920.jpg);
   background-size: cover;
   background-position: center;
-  border: 2px solid #2a2a2a;
-  box-shadow: 0 0 12px #2a2a2a;
+  border: 2px solid #0E5E6F;
+  box-shadow: 0 0 12px #0E5E6F;
   cursor: pointer;
   padding: 15px;
 }
@@ -106,7 +106,7 @@ h3 {
 }
 
 .separation {
-  background-color: rgb(255, 179, 0);
+  background-color: #393E46;
   height: 3px;
   width: 70%;
   margin: auto;
@@ -117,27 +117,27 @@ h3 {
 .go-up {
   height: 50px;
   width: 50px;
-  background-color: black;
-  border: 2px solid rgb(243, 120, 243);
+  background-color: #222831;
+  border: 2px solid #00ADB5;
   position: fixed;
   right: 20px;
   bottom: 20px;
-  color: rgb(243, 120, 243);
+  color: #00ADB5;
   text-align: center;
   font-size: 30px;
   line-height: 45px;
   border-radius: 30px;
-  box-shadow: 0 0 0.5 whitesmoke;
+  box-shadow: 0 0 0.5 #EEEEEE;
   transition: transform 0.3;
 }
 .go-up i:hover {
   color: rgba(238, 130, 238, 0.899);
-  text-shadow: 0 0 5px #2a2a2a;
+  text-shadow: 0 0 5px #0E5E6F;
   transform: scale(1.25);
 }
 
 .go a {
-  color: rgb(243, 120, 243);
+  color: #00ADB5;
   text-decoration: none;
   transition: transform 0.3s;
 }
@@ -156,10 +156,12 @@ h3 {
 }
 
 .item {
-  border: 2px solid #2a2a2a;
+  border: 2px solid #0E5E6F;
   border-radius: 10px;
-  box-shadow: 0 0 12px #2a2a2a;
+  box-shadow: 0 0 12px #0E5E6F;
   cursor: pointer;
+  margin-top: 7px;
+  margin-top: 7px;
 }
 
 .item1 {
@@ -255,12 +257,16 @@ h3 {
     width: 30%;
   }
 }
+button:hover {
+  border-color: #EEEEEE !important;
+}
+
 /*colors*/
 /*Font family*/
 /*Medidas*/
 .btn a {
   text-decoration: none;
-  color: #2a2a2a;
+  color: #0E5E6F;
 }
 
 .map {
@@ -276,8 +282,8 @@ h3 {
 
 .like1-left {
   padding: 20px;
-  background-color: black;
-  color: whitesmoke;
+  background-color: #222831;
+  color: #EEEEEE;
 }
 .like1-left p {
   text-align: justify;
@@ -285,7 +291,7 @@ h3 {
 }
 .like1-left h4::before {
   content: "💻";
-  color: rgb(243, 120, 243);
+  color: #00ADB5;
 }
 .like1-left h4 {
   text-align: center;
@@ -297,15 +303,15 @@ h3 {
   background-image: url(./img/fondo.jpg);
   background-size: cover;
   background-position: center;
-  border: 2px solid #2a2a2a;
-  box-shadow: 0 0 12px #2a2a2a;
+  border: 2px solid #0E5E6F;
+  box-shadow: 0 0 12px #0E5E6F;
   padding: 15px;
 }
 
 .like2-left {
   padding: 20px;
-  background-color: black;
-  color: whitesmoke;
+  background-color: #222831;
+  color: #EEEEEE;
 }
 .like2-left p {
   text-align: justify;
@@ -313,7 +319,7 @@ h3 {
 }
 .like2-left h4::before {
   content: "🔊";
-  color: rgb(243, 120, 243);
+  color: #00ADB5;
 }
 .like2-left h4 {
   text-align: center;
@@ -325,15 +331,15 @@ h3 {
   background-image: url(./img/migos.jpg);
   background-size: cover;
   background-position: center;
-  border: 2px solid #2a2a2a;
-  box-shadow: 0 0 12px #2a2a2a;
+  border: 2px solid #0E5E6F;
+  box-shadow: 0 0 12px #0E5E6F;
   padding: 15px;
 }
 
 .like3-left {
   padding: 20px;
-  background-color: black;
-  color: whitesmoke;
+  background-color: #222831;
+  color: #EEEEEE;
 }
 .like3-left p {
   text-align: justify;
@@ -341,17 +347,17 @@ h3 {
 }
 .like3-left h4::after {
   content: "🏆⚽";
-  color: rgb(243, 120, 243);
+  color: #00ADB5;
 }
 .like3-left h4 {
   text-align: center;
   font-family: "Roboto Condensed", sans-serif;
 }
 .like3-left button {
-  background-color: rgb(243, 120, 243) !important;
+  background-color: #00ADB5 !important;
   border-radius: 5px;
-  border: 2px solid #2a2a2a;
-  color: #2a2a2a;
+  border: 2px solid #0E5E6F;
+  color: #0E5E6F;
 }
 
 .like3-right {
@@ -359,15 +365,15 @@ h3 {
   background-image: url(./img/laBandaDelParque.jpg);
   background-size: cover;
   background-position: center;
-  border: 2px solid #2a2a2a;
-  box-shadow: 0 0 12px #2a2a2a;
+  border: 2px solid #0E5E6F;
+  box-shadow: 0 0 12px #0E5E6F;
   padding: 15px;
 }
 
 .like4-left {
   padding: 20px;
-  background-color: black;
-  color: whitesmoke;
+  background-color: #222831;
+  color: #EEEEEE;
 }
 .like4-left p {
   text-align: justify;
@@ -375,17 +381,17 @@ h3 {
 }
 .like4-left h4::before {
   content: "🏀";
-  color: rgb(243, 120, 243);
+  color: #00ADB5;
 }
 .like4-left h4 {
   text-align: center;
   font-family: "Roboto Condensed", sans-serif;
 }
 .like4-left button {
-  background-color: rgb(243, 120, 243) !important;
+  background-color: #00ADB5 !important;
   border-radius: 5px;
-  border: 2px solid #2a2a2a;
-  color: #2a2a2a;
+  border: 2px solid #0E5E6F;
+  color: #0E5E6F;
 }
 
 .like4-right {
@@ -393,11 +399,101 @@ h3 {
   background-image: url(./img/iverson.jpg);
   background-size: cover;
   background-position: center;
-  border: 2px solid #2a2a2a;
-  box-shadow: 0 0 12px #2a2a2a;
+  border: 2px solid #0E5E6F;
+  box-shadow: 0 0 12px #0E5E6F;
   padding: 15px;
 }
 
+.gallery-world {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 350px);
+  grid-template-areas: "img3 img3" "img1 img1" "img7 img7";
+  padding: 25px;
+}
+
+.place {
+  border: 2px solid #0E5E6F;
+  border-radius: 10px;
+  box-shadow: 0 0 12px #0E5E6F;
+  cursor: pointer;
+  margin-top: 7px;
+  margin-top: 7px;
+}
+
+.place1 {
+  grid-area: img1;
+  background-image: url(./img/newYork.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.place2 {
+  grid-area: img2;
+  background-image: url(./img/atenas.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.place3 {
+  grid-area: img3;
+  background-image: url(./img/amsterdam.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.place4 {
+  grid-area: img4;
+  background-image: url(./img/camping-patagonia.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.place5 {
+  grid-area: img5;
+  background-image: url(./img/patagonia1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.place6 {
+  grid-area: img6;
+  background-image: url(./img/tokio.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.place7 {
+  grid-area: img7;
+  background-image: url(./img/gran-canon2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .gallery-world {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 350px);
+    grid-template-areas: "img3 img3" "img1 img1" "img5 img5" "img7 img7";
+    padding: 25px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .gallery-world {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    grid-template-areas: "img1 img3 img3 img2" "img1 img7 img7 img2" "img5 img5 img4 img6";
+    padding: 25px;
+  }
+}
 /*colors*/
 /*Font family*/
 /*Medidas*/
@@ -407,35 +503,36 @@ h3 {
 }
 
 .inicio {
-  border: 2px solid #2a2a2a;
+  border: 2px solid #0E5E6F;
   border-radius: 10px;
   padding: 5px;
-  box-shadow: 0 0 5px rgba(115, 114, 114, 0.725);
+  box-shadow: 0 0 5px #393E46;
   cursor: pointer;
   text-decoration: none;
 }
 
 .inicio:hover {
-  color: rgba(255, 255, 255, 0.717);
+  color: #EEEEEE;
 }
 
 .boton {
   font-weight: bold;
-  border: 2px solid #2a2a2a;
+  border: 2px solid #0E5E6F;
   border-radius: 10px;
-  box-shadow: 0 0 5px rgba(115, 114, 114, 0.725);
+  box-shadow: 0 0 5px #393E46 !important;
   cursor: pointer;
-  background-color: rgb(255, 179, 0);
+  background-color: #00ADB5 !important;
 }
 
 .boton:hover {
-  color: rgba(255, 255, 255, 0.717);
+  color: #393E46 !important;
 }
 
 .body-contact {
-  background-color: rgba(0, 0, 0, 0.53);
+  background-color: #222831;
   font-weight: bold;
-  color: rgb(243, 120, 243);
+  color: #00ADB5;
+  height: 100vh;
 }
 
 /*colors*/
@@ -446,15 +543,27 @@ h3 {
   position: center;
 }
 .skills p {
-  color: rgb(243, 120, 243);
+  color: #00ADB5;
   letter-spacing: 2px;
   margin: 10px;
 }
 
 #title-skills {
-  background-color: black;
+  background-color: #222831;
   margin-top: 15px;
   font-size: 35px;
+}
+
+.btnS {
+  background-color: #00ADB5 !important;
+  border-radius: 5px;
+  border: 2px solid #0E5E6F;
+  color: #0E5E6F;
+}
+
+.btnS a {
+  text-decoration: none;
+  color: #393E46;
 }
 
 /*colors*/
@@ -466,23 +575,23 @@ footer {
   text-align: center;
   font-size: 20px;
   font-family: "Roboto Condensed", sans-serif;
-  background-color: rgb(255, 179, 0);
+  background-color: #393E46;
   margin-top: 1rem;
 }
 footer p {
   padding-top: 5px;
-  color: rgb(243, 120, 243);
-  text-shadow: 0 0 5px whitesmoke;
+  color: #00ADB5;
+  text-shadow: 0 0 5px #EEEEEE;
 }
 footer i {
   letter-spacing: 10px;
   font-size: 40px;
 }
 footer a {
-  color: whitesmoke;
+  color: #EEEEEE;
 }
 footer a:hover {
-  color: rgb(243, 120, 243);
+  color: #00ADB5;
 }
 
 /*colors*/
@@ -493,15 +602,15 @@ html {
 }
 
 .navbar {
-  background-color: rgb(255, 179, 0);
+  background-color: #393E46;
 }
 .navbar a:hover {
-  color: rgb(243, 120, 243) !important;
+  color: #00ADB5 !important;
 }
 
 .navbar-brand {
-  color: rgb(243, 120, 243) !important;
-  text-shadow: 0 0 5px whitesmoke;
+  color: #00ADB5 !important;
+  text-shadow: 0 0 5px #EEEEEE;
 }
 
 .margin-top {

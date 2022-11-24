@@ -4,7 +4,7 @@
     text-align: center;
     position: center;
     p{
-        color: $violet;
+        color: $color1;
         letter-spacing: 2px;
         margin: 10px;
     }
@@ -14,4 +14,17 @@
     background-color: $background;
     margin-top: 15px;
     font-size: 35px;
+}
+
+.btnS{
+    background-color: $color1 !important;
+        border-radius: 5px;
+        border: 2px solid $dark;
+        color: $dark;
+    
+}
+
+.btnS a{
+    text-decoration: none;
+    color: $color2;
 }
