@@ -12,24 +12,26 @@ body{
     font-family: 'Roboto Condensed', sans-serif;
     letter-spacing: 0.5px;
     background-color: $background;
-    padding: 5px;
+    padding: 15px;
     border: 2px solid $color2;
     border-radius: 10px;
     box-shadow: 0 0 12px $dark;
     cursor: pointer;
     transition: transform 0.3s;
+    content: normal;
     p{
         font-size: 20px;
         margin-bottom: 15px;
     }
 }
+
 .card1:hover{
     transform: scale(1.05)
 }
 .jumbotron{
     background-image: linear-gradient(rgba(0, 0, 0, 0.462),rgba(0, 0, 0, 0.462)),url(./img/city-ga584cc708_1920.jpg);
     background-size: cover;
-    height: 400px;
+    height: 600px;
     background-position: center;
     color: $color1;
     font-family: 'Roboto Condensed', sans-serif;
@@ -40,8 +42,7 @@ body{
         background-color: $color1 !important;
         border-radius: 5px;
         border: 2px solid $dark;
-        color: $dark;
-        
+        color: $dark;  
     }
 }
 
@@ -221,6 +222,12 @@ h3{
     transform: scale(1.10);
 }
 
+@media only screen and (min-width: 480px){
+    .jumbotron{
+        height: 500px;
+    }
+}
+
 @media only screen and (min-width: 768px){
     .gallery {
         height: 100%;
@@ -241,6 +248,9 @@ h3{
     }
     .card{
         width: 50%;
+    }
+    .jumbotron{
+        height: 400px;
     }
 
 }
